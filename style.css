@@ -1,6 +1,17 @@
 body{
     background-color: #1b2223;
     position: static;
+    height: 100%;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('./images/joao-ferreira-0v7B7I_jOMI-unsplash.jpg');
+    filter: blur(12px);
 }
 
 .left{
@@ -10,7 +21,8 @@ body{
     width: 35%;
     left: 15%;
     height: 600px;
-    top:200px
+    top:200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 label img{
@@ -129,6 +141,7 @@ input{
     height: 600px;
     left: 50%;
     top:208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .right img{
     width:666.391px;
